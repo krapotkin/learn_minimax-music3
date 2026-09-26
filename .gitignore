@@ -1,0 +1,67 @@
+# Virtual environment
+../venvs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Python
+.env
+.venv_local/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+coverage.xml
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and models (heavy files)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.pt
+*.bin
+*.safetensors
+models/
+checkpoints/
+*.tar.gz
+*.zip
+
+# Temporary
+tmp/
+*.tmp
+
+# Logs
+*.log
+
+# Dataset downloads
+datasets/
+
+# HuggingFace cache (use HF_HOME)
+cache/
+# Логи прогонов уроков (генерируемые артефакты)
+lesson_10
+lesson_11
+lesson_12
+lesson_12b

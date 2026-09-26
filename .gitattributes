@@ -1,0 +1,5 @@
+* text=auto
+*.safetensors binary
+*.pth binary
+*.wav binary
+*.mp3 binary

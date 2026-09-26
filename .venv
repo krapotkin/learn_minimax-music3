@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Активирует виртуальное окружение learn_minimax-music3
+#
+# ИСПОЛЬЗОВАНИЕ:
+#   source .venv      (или . .venv)
+# НЕ запускать как:  ./venv  -- это создаст подпроцесс, окружение сразу исчезнет!
+
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    echo "Ошибка: запускай через source:  source .venv"
+    exit 1
+fi
+
+source ~/workspace/venvs/learn_minimax-music3/cuda_12_4/bin/activate

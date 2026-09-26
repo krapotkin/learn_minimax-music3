@@ -1,0 +1,29 @@
+[project]
+name = "learn_minimax-music3"
+version = "0.1.0"
+description = "Educational project for MiniMax Music 3 music generation model"
+authors = [{name = "utrobinmv"}]
+requires-python = ">=3.10"
+dependencies = [
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "torch",
+    "torchaudio",
+    "soundfile",
+    "librosa",
+    "datasets",
+    "peft",
+    "bitsandbytes",
+    "huggingface_hub",
+]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
